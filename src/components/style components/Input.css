@@ -1,0 +1,28 @@
+.input_container {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.pexels.com/photos/1624438/pexels-photo-1624438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=2000&w=2000");
+    background-size: cover;
+}
+
+.input_container input {
+    width: 30vw;
+    height: 2rem;
+    border: thin solid black;
+    background-color: rgb(48, 27, 63);
+    color: white;
+    font-family: var(--poppins);
+}
+
+.input_container button {
+    width: 10vw;
+    height: 2rem;
+    outline: none;
+    border: thin solid black;
+    color:white;
+    background-color: rgb(21, 21, 21);
+    text-transform: uppercase;
+}
